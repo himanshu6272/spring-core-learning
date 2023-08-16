@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.example.constructorInjection.Address" name="address">
+        <constructor-arg value= "Ahmedabad" />
+        <constructor-arg value= "Gujarat" />
+        <constructor-arg value= "India" />
+    </bean>
+
+    <bean class="org.example.constructorInjection.Student" name="student1">
+        <constructor-arg value= "250" type="int" />
+        <constructor-arg value= "Brijesh" />
+        <constructor-arg value= "brijesh@gmail.com" />
+        <constructor-arg value= "7405198088" />
+        <constructor-arg ref="address" />
+    </bean>
+
+</beans>

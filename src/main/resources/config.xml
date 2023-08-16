@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    first method to crate bean-->
+
+    <bean class="org.example.Employee" name="emp1">
+        <property name="empId">
+            <value>24</value>
+        </property>
+        <property name="empName">
+            <value>Nitin</value>
+        </property>
+        <property name="empCity">
+            <value>Ahmedabad</value>
+        </property>
+        <property name="mobile">
+            <list>
+                <value>789989889</value>
+                <value>8451256</value>
+                <value>15484488</value>
+                <value>785641236</value>
+            </list>
+
+        </property>
+
+        <property name="course">
+            <map>
+                <entry key="java" value="6month" />
+                <entry key="python" value="4month" />
+                <entry key="js" value="2month" />
+            </map>
+
+        </property>
+    </bean>
+
+    <!--    second method to crate bean-->
+    <bean class="org.example.Employee" name="emp2">
+        <property name="empId" value="58" />
+        <property name="empName" value="Raju" />
+        <property name="empCity" value="Ahmedabad" />
+    </bean>
+
+</beans>
