@@ -11,7 +11,7 @@ public class Address {
         this.country = country;
     }
 
-    
+
     public String toString() {
         return "{" +
                 "city='" + city + '\'' +
