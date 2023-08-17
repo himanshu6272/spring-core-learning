@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+
 public class Employee {
     private static final Logger log = Logger.getLogger(org.example.constructorInjection.Test.class);
 
