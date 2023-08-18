@@ -1,6 +1,7 @@
 package org.example.autowiring.annotation;
 
 public class Address {
+
     private String street;
     private String city;
     private String state;

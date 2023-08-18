@@ -1,9 +1,9 @@
-package org.example;
+package org.example.setterinjection;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
  * Hello world!

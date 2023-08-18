@@ -1,4 +1,4 @@
-package org.example;
+package org.example.setterinjection;
 
 import org.apache.log4j.Logger;
 
