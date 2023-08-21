@@ -1,5 +1,7 @@
 package org.example.autowiring.annotation;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class Address {
 
     private String street;
